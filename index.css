@@ -7,9 +7,14 @@
 
 #teks{
     position:absolute;
-    top:50px;
-    left:100px;
-    color:rgb(109, 18, 18);
+    top:250px;
+    left:80px;
+    color: white;
+    font-size: 40px;
+    color: #FF5822;
+    text-align: left;
+    background-color: white;
+    background-size: cover;
 }
 
 body, html {
@@ -21,9 +26,26 @@ body, html {
 
   ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
   }
 
   li {
-    
+    margin: 30px 30px;
+    width: 30%;
   }
+
+.listgambar {
+  border-radius: 20px;
+}
+
+h1{
+  color: #2D2C2C;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+p {
+  color: #818181;
+  text-align: justify;
+}
